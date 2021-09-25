@@ -7,6 +7,7 @@ let g:rainbow_active = 1
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/fzfKeybinds.vim
 source $HOME/.config/nvim/coc.vim
+" source $HOME/.config/nvim/lsp.vim
 
 " Basic Configs
 set rnu

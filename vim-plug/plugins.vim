@@ -29,15 +29,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'frazrepo/vim-rainbow'
 
     "Fugitive
-    Plug 'tpope/vim-fugitive'
+    "Plug 'tpope/vim-fugitive'
+
     
     " LSP
-    " if has("nvim")
-    "    Plug 'neovim/nvim-lspconfig'
-    " endif
+    " Plug 'neovim/nvim-lspconfig'
+    " Plug 'hrsh7th/nvim-compe'
     
     "COC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
   
+    "Treesiter
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
 
 call plug#end()

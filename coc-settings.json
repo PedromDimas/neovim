@@ -1,3 +1,5 @@
 {
-
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": true
 }
