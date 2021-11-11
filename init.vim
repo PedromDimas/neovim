@@ -1,4 +1,4 @@
-let g:mapleader="-"
+let g:mapleader=","
 let g:airline_theme='fruit_punch'
 let g:rainbow_active = 1
 
